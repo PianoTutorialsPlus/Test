@@ -31,8 +31,9 @@ jobs:
           tags: matthiasf1271/getting-started:cicduebung
       - name: Image digest
         run: pwd
-      
-      - uses: actions/checkout@v2
-      - name: Build the Stack
-      - run: docker-compose up -d
+      -
+        name: Build the Stack
+        uses: actions/checkout@v2
+        run: docker-compose up -d
+       
       
