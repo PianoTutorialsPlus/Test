@@ -1,2 +1,5 @@
 pw azure
 Pa$$wOrd1234
+
+Docker Token getting-started
+dckr_pat_i4626oE_f4RJKLJepIBG_6SF21E
