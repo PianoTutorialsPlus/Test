@@ -32,8 +32,8 @@ jobs:
       - name: Image digest
         run: pwd
       -
-        name: Build the Stack
         uses: actions/checkout@v2
+        name: Build the Stack
         run: docker-compose -f app/docker-compose.yml up -d
        
       
