@@ -34,6 +34,6 @@ jobs:
       -
         name: Build the Stack
         uses: actions/checkout@v2
-        run: docker-compose up -d
+        run: app/docker-compose up -d
        
       
