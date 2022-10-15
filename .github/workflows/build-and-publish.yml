@@ -34,6 +34,6 @@ jobs:
       -
         name: Build the Stack
         uses: actions/checkout@v2
-        run: app/docker-compose up -d
+        run: docker-compose -f app/docker-compose.yml up -d
        
       
